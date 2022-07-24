@@ -10,8 +10,8 @@ const require = createRequire(import.meta.url);
 const path = require("path");
 
 
-const web3 = require("web3");
-const { ERC725 } = require("@erc725/erc725.js");
+import web3 from "Web3";
+const { ERC725 } = require("../js/@erc725/erc725.js");
 
 
 const schema = [
