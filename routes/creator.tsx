@@ -8,8 +8,7 @@ import { TODOS, TodoData } from "../model/todo.ts";
 
 export const handler: Handlers<TodoData | null> = {
   GET(_, ctx) {
-    const result = TODOS[0];
-    
+    const result = TODOS[0];    
     return ctx.render(result.data);
   },
 };
