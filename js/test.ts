@@ -4,10 +4,10 @@
     "erc725.js": "https://esm.sh/@erc725/erc725.js@0.14.3"
 
 */
-import Web3 from "Web3";
-import { ERC725, ERC725JSONSchema } from "erc725.js";
+import Web3 from "web3";
+import { ERC725 } from "@erc725/erc725.js";
 
-const schema: ERC725JSONSchema[] = [
+const schema = [
   {
     name: 'SupportedStandards:LSP3UniversalProfile',
     key: '0xeafec4d89fa9619884b60000abe425d64acd861a49b8ddf5c0b6962110481f38',
