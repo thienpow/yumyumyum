@@ -5,13 +5,8 @@ import { tw } from "../utils/twind.ts";
 import Layout from "../components/Layout.tsx";
 import { TODOS, TodoData } from "../model/todo.ts";
 
-import { createRequire } from "https://deno.land/std@0.149.0/node/module.ts";
-const require = createRequire(import.meta.url);
-const path = require("path");
-
-
-import web3 from "Web3";
-const { ERC725 } = require("../js/@erc725/erc725.js");
+import web3 from "web3";
+import { ERC725 } from "@erc725/erc725.js";
 
 
 const schema = [
