@@ -2,7 +2,7 @@
 import { h } from "preact";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { tw } from "../utils/twind.ts";
-import Layout from "../components/Layout.tsx";
+import SubLayout from "../components/SubLayout.tsx";
 import { TODOS, TodoData } from "../model/todo.ts";
 
 
@@ -18,7 +18,7 @@ export default function Follower({ data }: PageProps<TodoData | null>) {
     return <h1>Data not found</h1>;
   }
   return (
-    <Layout>
+    <SubLayout>
       <div>
         
         
@@ -36,6 +36,6 @@ export default function Follower({ data }: PageProps<TodoData | null>) {
         </p>
         
       </div>
-    </Layout>
+    </SubLayout>
   );
 }
