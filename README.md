@@ -5,15 +5,11 @@ A social app for food lover to share and hunt best food.  Location, Ranking, Vot
 
 ### Usage
 
-1. install latest node and deno, then
-2. install required npm modules
-
-```
-npm install
-```
-
-3. Start the project:
+1. install latest deno, then
+2. Start the project:
 
 ```
 deno task start
 ```
+
+3. Open browser and browse to http://localhost:8000
