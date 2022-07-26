@@ -28,8 +28,12 @@ export const TODOS = [
   ]
 
   
-export interface TodoData {
+export interface TodoDetailData {
     item: string,
     detail: string[]
-  }
+}
   
+export interface TodoData {
+  name: string,
+  data: TodoDetailData
+}
