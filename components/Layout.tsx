@@ -21,9 +21,7 @@ export default function Layout({children}:any) {
           <TopLogo />
 
           <TopNavBarMid>
-            <TopMenuItem title="Home" url="/" />
-            <TopMenuItem title="Creator" url="/creator" />
-            <TopMenuItem title="Follower" url="/follower" />
+            <TopMenuItem title="App" url="/app" />
             <TopMenuItem title="Blog" url="/blog" />
           </TopNavBarMid>
 
