@@ -17,13 +17,10 @@ export default function SubLayout({children}:any) {
     <div class={tw`w-full p-4`}>
       <TopNavBar>
         <TopLogo />
-        
         <TopNavBarMid />
-
         <TopNavBarRight>
           <SignInButton />
-        </TopNavBarRight>    
-        
+        </TopNavBarRight>
       </TopNavBar>
 
       <MainContent>
